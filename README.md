@@ -3,7 +3,7 @@
 
 [机器人定制开发](https://t.me/gpt5apt)
 
-Telegram 用户名随时间变化
+Telegram 昵称 随时间变化
 
 把当前时间设置为telegram昵称
 
