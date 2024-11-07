@@ -1,7 +1,7 @@
 # tg-nickname-time
 [案例参考](https://t.me/EXOHZI)
 
-[机器人开发](https://t.me/gpt5apt)
+[机器人定制开发](https://t.me/gpt5apt)
 
 Telegram 用户名随时间变化
 
@@ -14,8 +14,15 @@ Debian 10
 Python3
 
 每10秒，更新一次用户名（last_name）
-运行
 
+#下载
+```
+git clone https://github.com/mmm-py/tg-nickname-time.git
+```
+#进入目录
+```
+cd tg-nickname-time
+```
 #安装依赖
 ```
 pip3 install -r requirements.txt
@@ -44,3 +51,8 @@ api_auth.session-journal
 ```
 nohup python3 bot.py &
 ```
+开机自启
+```
+python3 -u 程序目录/bot.py > /var/log/tgusername.log 2>&1 &
+```
+如 python3 -u /root/tg-nickname-time/bot.py > /var/log/tgusername.log 2>&1 &
