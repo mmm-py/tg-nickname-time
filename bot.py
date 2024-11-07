@@ -50,7 +50,7 @@ async def change_name_auto():
         except Exception as e:
             print('%s: %s' % (type(e), e))
 
-        await asyncio.sleep(10)  # 每 10 秒更新一次
+        await asyncio.sleep(60)  # 每 60 秒更新一次
 
 # main function
 async def main(loop):
