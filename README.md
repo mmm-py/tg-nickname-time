@@ -1,7 +1,6 @@
-# tg-nickname-time
-[案例参考](https://t.me/EXOHZI)
 
-[机器人定制开发](https://t.me/gpt5apt)
+
+[机器人定制开发](https://t.me/gpt5api)
 
 Telegram 昵称 随时间变化
 
@@ -9,11 +8,9 @@ Telegram 昵称 随时间变化
 
 运行环境：
 
-Debian 10
-
 Python3
 
-每10秒，更新一次用户名（last_name）
+每60秒，更新一次用户名（last_name）
 
 #下载
 ```
